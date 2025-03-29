@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience | Kush Mishra</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .timeline-item:not(:last-child)::after {
+            content: '';
+            position: absolute;
+            left: 1.25rem;
+            top: 2.5rem;
+            height: calc(100% - 2.5rem);
+            width: 2px;
+            background: #e5e7eb;
+        }
+        .dark .timeline-item:not(:last-child)::after {
+            background: #374151;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-300">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm z-50 shadow-sm">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="text-xl font-bold text-blue-600 dark:text-blue-400">Kush Mishra</a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition">Home</a>
+                    <a href="about.html" class="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition">About</a>
+                    <a href="experience.html" class="text-blue-600 dark:text-blue-400 font-medium">Experience</a>
+                    <a href="services.html" class="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition">Services</a>
+                    <a href="contact.html" class="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition">Contact</a>
+                    <button id="theme-toggle" class="p-2 rounded-full focus:outline-none">
+                        <i class="fas fa-moon dark:hidden"></i>
+                        <i class="fas fa-sun hidden dark:block"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Experience Content -->
+    <section class="min-h-screen pt-32 pb-20">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h1 class="text-4xl font-bold mb-12">Professional Experience</h1>
+            
+            <div class="space-y-12">
+                <!-- Current Role -->
+                <div class="timeline-item relative pl-12">
+                    <div class="absolute left-0 top-0 flex items-center justify-center w-10 h-10 rounded-full bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-300">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+                        <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                            <h2 class="text-2xl font-semibold">Consultant - Operations & Facility Management</h2>
+                            <span class="text-blue-600 dark:text-blue-400 font-medium">2022 - Present</span>
+                        </div>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4">
+                            Leading strategic initiatives at a firm specializing in operations, maintenance, and comprehensive facility management.
+                        </p>
+                        <div class="space-y-4">
+                            <div>
+                                <h3 class="font-medium text-gray-800 dark:text-gray-200">Key Responsibilities:</h3>
+                                <ul class="list-disc pl-5 text-gray-600 dark:text-gray-400 space-y-1 mt-2">
+                                    <li>Developed and implemented operational efficiency programs resulting in 20% cost reduction</li>
+                                    <li>Led technology integration projects to modernize facility management systems</li>
+                                    <li>Designed comprehensive management frameworks for large-scale operations</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3 class="font-medium text-gray-800 dark:text-gray-200">Achievements:</h3>
+                                <ul class="list-disc pl-5 text-gray-600 dark:text-gray-400 space-y-1 mt-2">
+                                    <li>Spearheaded digital transformation initiative that improved reporting efficiency by 35%</li>
+                                    <li>Created standardized operating procedures adopted company-wide</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Philips Experience -->
+                <div class="timeline-item relative pl-12">
+                    <div class="absolute left-0 top-0 flex items-center justify-center w-10 h-10 rounded-full bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-300">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+                        <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                            <h2 class="text-2xl font-semibold">Software Developer</h2>
+                            <span class="text-blue-600 dark:text-blue-400 font-medium">2020 - 2022</span>
+                        </div>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4">
+                            Developed healthcare software solutions at Philips, gaining deep technical expertise and problem-solving skills.
+                        </p>
+                        <div class="space-y-4">
+                            <div>
+                                <h3 class="font-medium text-gray-800 dark:text-gray-200">Key Responsibilities:</h3>
+                                <ul class="list-disc pl-5 text-gray-600 dark:text-gray-400 space-y-1 mt-2">
+                                    <li>Designed and implemented features for medical imaging software</li>
+                                    <li>Collaborated with cross-functional teams to solve complex technical challenges</li>
+                                    <li>Optimized application performance and reliability</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3 class="font-medium text-gray-800 dark:text-gray-200">Achievements:</h3>
+                                <ul class="list-disc pl-5 text-gray-600 dark:text-gray-400 space-y-1 mt-2">
+                                    <li>Reduced system latency by 40% through architectural improvements</li>
+                                    <li>Received innovation award for developing a novel diagnostic workflow</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="timeline-item relative pl-12">
+                    <div class="absolute left-0 top-0 flex items-center justify-center w-10 h-10 rounded-full bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-300">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+                        <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                            <h2 class="text-2xl font-semibold">B.Tech in Computer Science</h2>
+                            <span class="text-blue-600 dark:text-blue-400 font-medium">IIIT Allahabad</span>
+                        </div>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4">
+                            Developed strong technical foundation and problem-solving approach through rigorous academic program.
+                        </p>
+                        <div>
+                            <h3 class="font-medium text-gray-800 dark:text-gray-200">Key Focus Areas:</h3>
+                            <ul class="list-disc pl-5 text-gray-600 dark:text-gray-400 space-y-1 mt-2">
+                                <li>Software engineering principles and best practices</li>
+                                <li>Systems thinking and architectural design</li>
+                                <li>Data structures and algorithms</li>
+                                <li>Human-computer interaction</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Theme toggle script (same as index.html)
+        const themeToggle = document.getElementById('theme-toggle');
+        const html = document.documentElement;
+
+        if (localStorage.getItem('theme') === 'dark' || (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            html.classList.add('dark');
+        } else {
+            html.classList.remove('dark');
+        }
+
+        themeToggle.addEventListener('click', () => {
+            html.classList.toggle('dark');
+            localStorage.setItem('theme', html.classList.contains('dark') ? 'dark' : 'light');
+        });
+    </script>
+</body>
+</html>
